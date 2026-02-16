@@ -32,12 +32,12 @@ body {
 
     position: relative;
     min-height: 100vh;
-    flex: 0 0 30%;
+    flex: 0 0 40%;
 
 }
 
 .brand_tag {
-    margin-top: 30%;
+    margin-top: 5em;
     display: flex;
     background-color: #99999920;
     width: 100%;
@@ -58,10 +58,15 @@ body {
 }
 
 .signup_form {
-
-    padding: 22px 24px 26px;
+    padding: 1em;
+    padding-left: 24px;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.signup_form  h2 {
+  margin: 0px;
+  padding-bottom: 12px;
 }
 
 .signup_form form {
@@ -77,6 +82,10 @@ body {
 
 .form_group input {
   width: 80%;
+}
+
+button {
+  
 }
 
 /* animations */
